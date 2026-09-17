@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuteDude - HTML Learning Demo</title>
+</head>
+<body>
+   
+    <h1>Welcome to TuteDude</h1>
+
+   
+          <header>
+
+        <p>
+            Learn <strong>HTML</strong> with
+            <em>simple explanations</em> and
+            <b>practical examples</b>.
+        </p>
+
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#courses">Courses</a> |
+            <a href="#trivia">Trivia</a> |
+            <a href="#extras">Extras</a> |
+            <a href="#feedback">Feedback</a>
+        </nav>
+
+        <br>
+
+        <figure>
+
+             <img src="images/learnhtml.jpg"
+                  alt="Girl with desktop "
+         width="500">
+
+            <figcaption>
+                Learn Web Development with TuteDude
+            </figcaption>
+
+        </figure>
+
+    </header>
+    <main>
+
+    <section id="about">
+
+        <h2>About TuteDude</h2>
+
+        <p>
+            TuteDude is a fictional learning platform designed
+            to help students learn web development through
+            simple lessons and practical projects.
+        </p>
+
+        <blockquote>
+            "Learning to code becomes easier when you practice
+            by building real projects."
+        </blockquote>
+
+        <cite>— TuteDude Learning Team</cite>
+
+    </section>
+    <section id="courses">
+
+    <h2>Popular Courses</h2>
+
+    <table border="1">
+
+        <thead>
+
+            <tr>
+                <th>Course</th>
+                <th>Level</th>
+                <th>Duration</th>
+                <th>Details</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>HTML Basics</td>
+                <td>Beginner</td>
+                <td>4 Weeks</td>
+
+                <td>
+
+                    <table border="1">
+
+                        <tr>
+                            <th>Topic</th>
+                            <th>Lessons</th>
+                        </tr>
+
+                        <tr>
+                            <td>HTML Tags</td>
+                            <td>10</td>
+                        </tr>
+
+                        <tr>
+                            <td>HTML Forms</td>
+                            <td>5</td>
+                        </tr>
+
+                    </table>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>CSS Basics</td>
+                <td>Beginner</td>
+                <td>5 Weeks</td>
+
+                <td>
+
+                    <table border="1">
+
+                        <tr>
+                            <th>Topic</th>
+                            <th>Lessons</th>
+                        </tr>
+
+                        <tr>
+                            <td>Selectors</td>
+                            <td>8</td>
+                        </tr>
+
+                        <tr>
+                            <td>Layouts</td>
+                            <td>7</td>
+                        </tr>
+
+                    </table>
+
+                </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</section>
+<section id="trivia">
+
+    <h2>HTML Trivia</h2>
+
+    <aside>
+
+        <h3>Did You Know?</h3>
+
+        <p>
+            HTML stands for HyperText Markup Language.
+        </p>
+
+        <p>
+            HTML is used to create the structure of webpages.
+        </p>
+
+        <ul>
+            <li>HTML uses tags to structure content.</li>
+            <li>HTML5 supports multimedia.</li>
+            <li>HTML can create forms.</li>
+        </ul>
+
+    </aside>
+
+</section>
+<section id="extras">
+
+    <h2>Extras</h2>
+
+    <h3>Learning Audio</h3>
+
+    <audio controls>
+
+        <source src="learning.mp3" type="audio/mpeg">
+
+        Your browser does not support audio.
+
+    </audio>
+
+
+    <h3>Learning Video</h3>
+
+    <video width="600" controls>
+
+        <source src="learning.mp4" type="video/mp4">
+
+        Your browser does not support video.
+
+    </video>
+
+</section>
+<section id="feedback">
+
+    <h2>Feedback Form</h2>
+
+    <form>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <br><br>
+
+        <label for="course">Choose a Course:</label>
+
+        <select id="course" name="course">
+
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+
+        </select>
+
+        <br><br>
+
+        <label for="message">Your Feedback:</label>
+
+        <br>
+
+        <textarea id="message"
+                  name="message"
+                  rows="5"
+                  cols="40"
+                  placeholder="Write your feedback here..."></textarea>
+
+        <br><br>
+
+        <button type="submit">
+            Submit Feedback
+        </button>
+
+    </form>
+
+</section>
+
+</main>
+        <footer>
+
+    <h2>Contact Us</h2>
+
+    <address>
+
+        TuteDude Learning Platform<br>
+        Pune, Maharashtra, India<br>
+        Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tutedude@gmail.com">
+        tutedude@gmail.com
+    </a>
+
+    </address>
+
+    <p>
+        &copy; 2026 TuteDude. All Rights Reserved.
+    </p>
+
+</footer>
+</body>
+</html>
